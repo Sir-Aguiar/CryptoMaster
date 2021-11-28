@@ -12,9 +12,11 @@ parameters = {
   'limit':'15',
   'convert':'USD'
 }
+APIKEY = 'Your key'
+
 headers = {
   'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': 'f04378c1-59a3-4376-8bb4-af1a9bbc4f7a',
+  'X-CMC_PRO_API_KEY': str(APIKEY),
 }
 
 session = Session()
